@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Baliza</title>
+
+  <!-- Fonte mais parecida com Canva -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 64px;
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 48px;
+      margin-top: 120px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #bfbfbf;
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 100px;
+    }
+
+    .badge {
+      margin-top: 25px;
+      display: inline-block;
+      padding: 10px 22px;
+      border: 1px solid #444;
+      border-radius: 25px;
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .info {
+      margin-top: 30px;
+      display: flex;
+      gap: 60px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #333;
+    }
+
+    /* PERFIL */
+    .perfil {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 60px;
+    }
+
+    .perfil img {
+      width: 200px;
+      border-radius: 50%;
+    }
+
+    /* LISTAS */
+    ul {
+      color: #bbb;
+      line-height: 2;
+      font-size: 15px;
+    }
+
+    /* PROJETOS */
+    .projetos {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .projeto {
+      width: 30%;
+      text-align: left;
+    }
+
+    .projeto img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    /* TESTEMUNHOS */
+    .testemunhos {
+      display: flex;
+      gap: 50px;
+    }
+
+    .testemunho {
+      width: 30%;
+    }
+
+    .testemunho strong {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    @media(max-width: 900px){
+      .header, .perfil, .projetos, .testemunhos {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .projeto, .testemunho {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <h1>Pedro Henrique<br>Baliza Ramos</h1>
+
+      <div class="badge">Ciências da computação</div>
+
+      <div class="info">
+        <div>
+          <div>E-mail</div>
+          <strong>pedrobalizar@gmail.com</strong>
+        </div>
+
+        <div>
+          <div>Telefone</div>
+          <strong>(55) 61 99679-3888</strong>
+        </div>
+      </div>
+    </div>
+
+    <img src="imagens/foto1.jpg">
+  </div>
+
+  <!-- PERFIL -->
+  <h2>Perfil Pessoal</h2>
+
+  <div class="perfil">
+    <p>
+      Meu nome é Pedro Henrique Baliza Ramos, sou estudante de Ciência da Computação.
+      Passei a me interessar pela área de tecnologia ao perceber que se trata de um mercado
+      em constante crescimento. Por isso, decidi seguir esse caminho em busca de boas
+      oportunidades profissionais. Atualmente, estou focado em aprender cada vez mais,
+      ampliando meu conhecimento para me tornar um profissional de TI qualificado.
+    </p>
+
+    <img src="imagens/foto2.jpg">
+  </div>
+
+  <!-- CURRICULO -->
+  <h2>Currículo</h2>
+
+  <ul>
+    <li>Cursando Ciências da Computação pelo CEUB</li>
+    <li>Cursando CS50 Harvard</li>
+    <li>Diploma de língua inglesa</li>
+    <li>Curso de modelagem de dados da Fundação Bradesco</li>
+    <li>Primeiro lugar no Campeonato Brasiliense de voleibol</li>
+  </ul>
+
+  <!-- PROJETOS -->
+  <h2>Projetos Acadêmicos e Profissionais</h2>
+
+  <div class="projetos">
+    <div class="projeto">
+      <img src="imagens/projeto1.jpg">
+      <p>Fiz um jogo no Scratch (CS50).</p>
+    </div>
+
+    <div class="projeto">
+      <img src="imagens/projeto2.jpg">
+      <p>Programei o Mario (CS50).</p>
+    </div>
+
+    <div class="projeto">
+      <img src="imagens/projeto3.jpg">
+      <p>Programa de moedas (CS50).</p>
+    </div>
+  </div>
+
+  <!-- HABILIDADES -->
+  <h2>Habilidades e Competências</h2>
+
+  <ul>
+    <li>Vôlei pelo CID</li>
+    <li>Organização</li>
+    <li>Boa comunicação</li>
+    <li>Prestativo</li>
+    <li>Busca constante por conhecimento</li>
+  </ul>
+
+  <!-- TESTEMUNHOS -->
+  <h2>Recomendações e Testemunhos</h2>
+
+  <div class="testemunhos">
+    <div class="testemunho">
+      <strong>No vôlei</strong>
+      <p>Passava segurança para o time.</p>
+    </div>
+
+    <div class="testemunho">
+      <strong>Amigos</strong>
+      <p>Sou fácil de lidar.</p>
+    </div>
+
+    <div class="testemunho">
+      <strong>Família</strong>
+      <p>Responsável e prestativo.</p>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
