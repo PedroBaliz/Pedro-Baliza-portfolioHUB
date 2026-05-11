@@ -2,7 +2,7 @@ from cs50 import get_int
 #import height
 while True:
     height = get_int("Digit a number greater than 1 and smaller than 8: ")
-    if  1 <= height <= 8
+    if height >= 1 and <=8:
          break
 
 for i in range (height):
