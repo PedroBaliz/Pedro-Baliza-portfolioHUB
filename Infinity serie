@@ -3,16 +3,16 @@ include <math.h>
 
 int main() {
 int n, N
-double sum = 0 
+double sum = 0.0 
 printf("Write the terms of the serie");
 scanf("%d", &N);
 
 for( n = 2; n < N; n++) 
 {
-sum += 1.= / pow(n* log(n), 2);
+sum += 1.0  / pow(n* log(n), 2);
 }
 printf("Approximate value of the serie", sum, N);
-
+return 0;
 }
 
 
