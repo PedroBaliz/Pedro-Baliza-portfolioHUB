@@ -2,8 +2,8 @@
 include <math.h>
 
 int main() {
-int n, N
-double sum = 0.0 
+int n, N;
+double sum = 0.0;
 printf("Write the terms of the serie");
 scanf("%d", &N);
 
