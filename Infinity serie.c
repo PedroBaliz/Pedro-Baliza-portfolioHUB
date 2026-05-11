@@ -1,5 +1,5 @@
 #include <stdio.h>
-include <math.h>
+#include <math.h>
 
 int main() {
 int n, N;
@@ -11,7 +11,7 @@ for( n = 2; n < N; n++)
 {
 sum += 1.0  / pow(n* log(n), 2);
 }
-printf("Approximate value of the serie", sum, N);
+printf("Approximate value of the serie: %lf\n", sum);
 return 0;
 }
 
