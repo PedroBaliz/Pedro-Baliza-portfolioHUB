@@ -4,10 +4,10 @@
 int main() {
 int n, N;
 double sum = 0.0;
-printf("Write the terms of the serie");
+printf("Write the terms of the serie: ");
 scanf("%d", &N);
 
-for( n = 2; n < N; n++) 
+for( n = 2; n <= N; n++) 
 {
 sum += 1.0  / pow(n* log(n), 2);
 }
